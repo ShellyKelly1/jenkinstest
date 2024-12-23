@@ -19,7 +19,7 @@ pipeline {
                         }
                     } else {
                         echo 'Cloning new repository'
-                        git branch: 'main', url: 'https://github.com/NenEssence/JenkinsTest.git'
+                        git branch: 'main', url: 'https://github.com/ShellyKelly1/jenkinstest.git'
                     }
                 }
             }
